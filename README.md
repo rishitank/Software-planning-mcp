@@ -2,6 +2,10 @@
 
 A Model Context Protocol (MCP) server designed to facilitate software development planning through an interactive, structured approach. This tool helps break down complex software projects into manageable tasks, track implementation progress, and maintain detailed development plans.
 
+<a href="https://glama.ai/mcp/servers/a35c7qc7ie">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/a35c7qc7ie/badge" alt="Software Planning Tool MCP server" />
+</a>
+
 ## Features ✨
 
 - **Interactive Planning Sessions**: Start and manage development planning sessions
