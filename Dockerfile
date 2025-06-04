@@ -5,14 +5,11 @@ FROM node:18-alpine
 # Set the working directory inside the container.
 WORKDIR /app
 
-# Copy over only package.json and pnpm-lock.yaml to install dependencies.
-COPY package.json pnpm-lock.yaml ./
+# Copy all application code.
+COPY . .
 
 # Install pnpm globally and then install dependencies.
 RUN npm install -g pnpm && pnpm install --frozen-lockfile
-
-# Copy the rest of the application code.
-COPY . .
 
 # Build the application.
 RUN pnpm run build
