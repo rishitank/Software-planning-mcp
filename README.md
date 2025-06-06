@@ -51,6 +51,17 @@ pnpm run build
 }
 ```
 
+#### Docker
+Clone this repository and run the following command:
+```
+docker build -t software-planning-mcp .
+```
+
+In your MCP client use the following command to install the Software Planning Tool:
+```
+docker run -i --rm softare-planning-mcp
+```
+
 ## Available Tools 🔧
 
 ### start_planning
